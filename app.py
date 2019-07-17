@@ -272,4 +272,6 @@ def delete_article(id):
 
 if __name__ == '__main__':
     app.secret_key='secret99'
-    app.run(debug=True)
+    app.run(host=os.environ.get('IP'),
+            port=int(os.environ.get('PORT')),
+            debug=True)
