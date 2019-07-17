@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'eu-cdbr-west-02.cleardb.net'
 app.config['MYSQL_USER'] = 'b4346004b66194'
 app.config['MYSQL_PASSWORD'] = 'ed633dcd'
-app.config['MYSQL_DB'] = 'flaskapp'
+app.config['MYSQL_DB'] = 'heroku_7e0c986e4a024a3'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 app.config['SECRET_KEY'] = 'your_secret_string'
 # config MySQL
