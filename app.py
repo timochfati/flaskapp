@@ -8,8 +8,6 @@ from functools import wraps
 
 app = Flask(__name__)
 
-mysql://b4346004b66194:ed633dcd@eu-cdbr-west-02.cleardb.net/heroku_7e0c986e4a024a3?reconnect=true
-
 # config MySQL
 app.config['MYSQL_HOST'] = 'eu-cdbr-west-02.cleardb.net'
 app.config['MYSQL_USER'] = 'b4346004b66194'
