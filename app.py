@@ -8,7 +8,6 @@ from functools import wraps
 
 app = Flask(__name__)
 
-print( cur.execute('SHOW TABLES'))
 # config MySQL
 app.config['MYSQL_HOST'] = 'eu-cdbr-west-02.cleardb.net'
 app.config['MYSQL_USER'] = 'b4346004b66194'
@@ -283,3 +282,4 @@ if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
             debug=True)
+print( cur.execute('SHOW TABLES'))
